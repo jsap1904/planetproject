@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	font-family: 'Rancho', cursive;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+	opacity: .85;
+	color: white;
+	font-size: 25px;
+
+}
+.subhead {
+	color: violet;
+	font-size: 20px;
+}
+
+#yourPlanet {
+	color: white;
+	font-size: 30px;
+}
+#yourInfo {
+		color: violet;
+		font-size: 25px;
+}
