@@ -79,6 +79,7 @@ function solarSystem() {
 			// stop the function because we found a match and added the data to the screen!!!
 			return
 		}
+		else if(userdata.value.toLowerCase() != planets[i].planet) {
 		// confirm no matches are found if that's the case
 		console.log("no matches were found, user failed to type in a correct planet")
 		// if no match is found, do opposite of above, mostly clearing content and images
@@ -89,5 +90,5 @@ function solarSystem() {
 		document.getElementById("icon").src = ""
 	}
 }
-	
+}
 	

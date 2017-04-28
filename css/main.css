@@ -1,7 +1,7 @@
 body {
 	text-align: center;
-	font-family: 'Rancho', cursive;
-	background: url(../img/bg.jpg) no-repeat;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
 	background-size: cover;
 	opacity: .85;
 	color: white;
@@ -9,15 +9,20 @@ body {
 
 }
 .subhead {
-	color: violet;
+	color: red;
 	font-size: 20px;
 }
 
 #yourPlanet {
-	color: white;
+	color: red;
 	font-size: 30px;
 }
 #yourInfo {
-		color: violet;
-		font-size: 25px;
+		color: red;
+		font-size: 13px;
+}
+
+img {
+	border-radius: 25%;
+	margin-bottom: 20px;
 }
