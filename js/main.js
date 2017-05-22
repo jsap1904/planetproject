@@ -91,4 +91,16 @@ function solarSystem() {
 	}
 }
 }
-	
+
+$(function() {
+    $("button").keypress(function () {
+        if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+            $('button[type=button] .default').click();
+            return false;
+        } else {
+            return true;
+        }
+    });
+});
+
+
