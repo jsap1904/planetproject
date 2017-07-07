@@ -88,19 +88,11 @@ function solarSystem() {
 		document.getElementById("yourPlanet").textContent = "No such planet! ...yet?"
 		document.getElementById("yourInfo").textContent = ""
 		document.getElementById("icon").src = ""
+		}
 	}
 }
-}
-
-$(function() {
-    $("button").keypress(function () {
-        if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
-            $('button[type=button] .default').click();
-            return false;
-        } else {
-            return true;
-        }
-    });
+$("#userdata").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#button").click();
+    }
 });
-
-

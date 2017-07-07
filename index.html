@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Planets by JS</title>
 	<!-- CSS LINK -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/main.css">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/animate.css">
@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-				<form>
+				<!-- <form> -->
 					<div class="form-group">
 						<span id="animationSandbox" style="display: block;">
 							<h1 class="animated fadeIn">Planets in the Solar System
@@ -28,13 +28,12 @@
 			
 	
 	<div class="form-group">
-		<input id="userdata" class="form-control">
+		<input id="userdata" class="form-control"/>
 	</div>
 		<div class="form-group">
-<!-- 		runs the function on line 49 main.js-->	
-			<button type="button" id="button" onclick="solarSystem()" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm">Find Planet</button>
+			<button type="button" id="button" onclick="solarSystem()" onkeypress="return searchKeyPress(event);" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm">Find Planet</button>
 		</div>
-	</form>
+<!-- 	</form> -->
 
 
 	<!-- modal -->
@@ -52,9 +51,10 @@
 
 
 
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
- 	 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  		crossorigin="anonymous"></script>
+		<script
+	  src="https://code.jquery.com/jquery-3.2.0.min.js"
+	  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+	  crossorigin="anonymous"></script>
   		<script src="js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
 
